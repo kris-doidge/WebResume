@@ -2945,6 +2945,29 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "WebResume.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "WebResume.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WebResume.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebResume.Data.dll": {}
+        }
+      },
+      "WebResume.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/WebResume.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WebResume.Domain.dll": {}
+        }
       }
     }
   },
@@ -8545,6 +8568,16 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "WebResume.Data/1.0.0": {
+      "type": "project",
+      "path": "../WebResume.Data/WebResume.Data.csproj",
+      "msbuildProject": "../WebResume.Data/WebResume.Data.csproj"
+    },
+    "WebResume.Domain/1.0.0": {
+      "type": "project",
+      "path": "../WebResume.Domain/WebResume.Domain.csproj",
+      "msbuildProject": "../WebResume.Domain/WebResume.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -8554,7 +8587,8 @@
       "Microsoft.AspNetCore.HttpsPolicy >= 2.2.0",
       "Microsoft.AspNetCore.Mvc >= 2.2.0",
       "Microsoft.AspNetCore.StaticFiles >= 2.2.0",
-      "Microsoft.NETCore.App >= 2.2.0"
+      "Microsoft.NETCore.App >= 2.2.0",
+      "WebResume.Data >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -8589,7 +8623,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\kdoid\\Documents\\PluralSight\\WebResume\\WebResume.Data\\WebResume.Data.csproj": {
+              "projectPath": "C:\\Users\\kdoid\\Documents\\PluralSight\\WebResume\\WebResume.Data\\WebResume.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

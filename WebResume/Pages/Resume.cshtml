@@ -1,0 +1,76 @@
+@page
+@model ResumeModel
+
+@{
+    ViewData["Title"] = "Resume";
+}
+
+<head>
+     <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<h2>Resume</h2>
+
+<h3>Technology</h3>
+<ul>
+    
+    <div class="technologies">
+        <span class="type">Languages: </span>
+        @foreach (var x in @Model.Languages)
+        {
+            <span>@x.Name, </span>
+        }
+    </div>
+    <div class="technologies">
+        <span class="type">Software: </span>
+        @foreach (var x in @Model.Software)
+        {
+            <span>@x.Name, </span>
+        }
+    </div>
+    <div class="technologies">
+        <span class="type">Operating Systems: </span>
+        @foreach (var x in @Model.OperatingSystems)
+        {
+            <span>@x.Name, </span>
+        }
+    </div>
+</ul>
+
+<h3>Experiences</h3>
+@foreach (var r in @Model.Experiences)
+{
+    <div>
+        <h6 class="company">@r.Company</h6>
+        <div>
+            <span class="title">@r.Title</span>
+            <span class="duration">@r.Duration.Item1 - @r.Duration.Item2</span>
+        </div>
+        <p></p>
+        <ul>
+            @foreach (var x in r.Responsibilities)
+            {
+                <li>@x</li>
+            }
+        </ul>
+    </div>
+}
+
+<h3>Honor & Award</h3>
+<div>
+    <h6 class="company">Applause Award</h6>
+    <span>The Applause Award is given as recognition for the performance and impact team members have on their engagement.</span>
+</div>
+<p></p>
+<h3>Education</h3>
+<div>
+    <div>
+        <h6 class="company">Florida State University</h6>
+        <span class="duration">Graduated May 2017</span>
+    </div>
+    <ul>
+        <li>Bachelor of Science in Computer Science</li>
+        <ul>
+            <li>Minor: Mathematics</li>
+        </ul>
+    </ul>
+</div>

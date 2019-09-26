@@ -19,7 +19,11 @@
     },
     "frameworks": {
       "netcoreapp2.2": {
-        "projectReferences": {}
+        "projectReferences": {
+          "C:\\Users\\kdoid\\Documents\\PluralSight\\WebResume\\WebResume.Data\\WebResume.Data.csproj": {
+            "projectPath": "C:\\Users\\kdoid\\Documents\\PluralSight\\WebResume\\WebResume.Data\\WebResume.Data.csproj"
+          }
+        }
       }
     },
     "warningProperties": {
