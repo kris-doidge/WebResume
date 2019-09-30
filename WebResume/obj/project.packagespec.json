@@ -43,6 +43,10 @@
           "target": "Package",
           "version": "[2.2.0, )"
         },
+        "Microsoft.AspNetCore.Http.Connections.Client": {
+          "target": "Package",
+          "version": "[3.0.0, )"
+        },
         "Microsoft.AspNetCore.HttpsPolicy": {
           "target": "Package",
           "version": "[2.2.0, )"
@@ -54,6 +58,10 @@
         "Microsoft.AspNetCore.StaticFiles": {
           "target": "Package",
           "version": "[2.2.0, )"
+        },
+        "Microsoft.Extensions.Http": {
+          "target": "Package",
+          "version": "[3.0.0, )"
         },
         "Microsoft.NETCore.App": {
           "suppressParent": "All",

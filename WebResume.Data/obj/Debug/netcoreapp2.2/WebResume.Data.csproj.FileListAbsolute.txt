@@ -10,3 +10,5 @@ C:\Users\kdoid\Documents\PluralSight\WebResume\WebResume.Data\obj\Debug\netcorea
 C:\Users\kdoid\Documents\PluralSight\WebResume\WebResume.Data\obj\Debug\netcoreapp2.2\WebResume.Data.csproj.CopyComplete
 C:\Users\kdoid\Documents\PluralSight\WebResume\WebResume.Data\obj\Debug\netcoreapp2.2\WebResume.Data.dll
 C:\Users\kdoid\Documents\PluralSight\WebResume\WebResume.Data\obj\Debug\netcoreapp2.2\WebResume.Data.pdb
+C:\Users\kdoid\Documents\PluralSight\WebResume\WebResume.Data\bin\Debug\netcoreapp2.2\Newtonsoft.Json.dll
+C:\Users\kdoid\Documents\PluralSight\WebResume\WebResume.Data\bin\Debug\netcoreapp2.2\Newtonsoft.Json.xml

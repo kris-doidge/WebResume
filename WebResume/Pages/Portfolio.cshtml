@@ -1,8 +1,13 @@
 @page
-@model WebResume.Pages.Portfolio
+@model WebResume.Pages.PortfolioModel
 
 @{
     ViewData["Title"] = "Portfolio";
 }
 
 <h2>Portfolio</h2>
+
+@foreach (var r in Model.GitReposes)
+{
+    <div>@r.name</div>
+}
