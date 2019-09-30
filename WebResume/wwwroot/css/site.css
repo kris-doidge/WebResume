@@ -130,3 +130,28 @@ i.fa-github,i.fa-linkedin{
   padding-left: 24px;
   padding-right: 24px;
 }
+
+/* Portfolio */
+div.gitChips{
+  height: 400px;
+  width: 400px;
+  border: 1px solid #000000;
+  margin: 24px 24px;
+  text-overflow: ellipsis;
+}
+
+div.gitName{
+  text-align: center;
+}
+span.gitName{
+  font-size: 24px;
+}
+
+div.gitImg{
+  text-align: center;
+}
+
+div.gitDescription{
+  margin-right: 5%;
+  margin-left: 5%;
+}

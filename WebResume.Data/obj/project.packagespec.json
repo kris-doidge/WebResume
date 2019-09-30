@@ -1,27 +1,26 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\kdoid\\Documents\\PluralSight\\WebResume\\WebResume.Data\\WebResume.Data.csproj",
+    "projectUniqueName": "/Users/kris/Desktop/WebResume/WebResume.Data/WebResume.Data.csproj",
     "projectName": "WebResume.Data",
-    "projectPath": "C:\\Users\\kdoid\\Documents\\PluralSight\\WebResume\\WebResume.Data\\WebResume.Data.csproj",
-    "outputPath": "C:\\Users\\kdoid\\Documents\\PluralSight\\WebResume\\WebResume.Data\\obj\\",
+    "projectPath": "/Users/kris/Desktop/WebResume/WebResume.Data/WebResume.Data.csproj",
+    "outputPath": "/Users/kris/Desktop/WebResume/WebResume.Data/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
-      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback",
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
       "netcoreapp2.2"
     ],
     "sources": {
-      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-      "https://api.nuget.org/v3/index.json": {}
+      "https://api.nuget.org/v3/index.json": {},
+      "https://pkgs.dev.azure.com/chanceyjr/_packaging/CyberSyphon-Packages/nuget/v3/index.json": {}
     },
     "frameworks": {
       "netcoreapp2.2": {
         "projectReferences": {
-          "C:\\Users\\kdoid\\Documents\\PluralSight\\WebResume\\WebResume.Domain\\WebResume.Domain.csproj": {
-            "projectPath": "C:\\Users\\kdoid\\Documents\\PluralSight\\WebResume\\WebResume.Domain\\WebResume.Domain.csproj"
+          "/Users/kris/Desktop/WebResume/WebResume.Domain/WebResume.Domain.csproj": {
+            "projectPath": "/Users/kris/Desktop/WebResume/WebResume.Domain/WebResume.Domain.csproj"
           }
         }
       }
@@ -44,6 +43,10 @@
           "target": "Package",
           "version": "[2.2.0, )",
           "autoReferenced": true
+        },
+        "Newtonsoft.Json": {
+          "target": "Package",
+          "version": "[11.0.2, )"
         }
       },
       "imports": [

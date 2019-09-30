@@ -34,15 +34,9 @@ namespace WebResume.Data
             var response = await client.SendAsync(request).ConfigureAwait(false);
             if (response != null)
             {
-                string jsonString;
-                jsonString = await response.Content.ReadAsStringAsync();
-                List<GitRepos> repos = JsonConvert.DeserializeObject<List<GitRepos>>(jsonString);
-                Console.WriteLine(repos.Count);
-                Console.WriteLine(JsonConvert.DeserializeObject<List<GitRepos>>(jsonString));
-                foreach(var x in repos)
-                    Console.WriteLine(x.name + " " + x.html_url + " " + x.description);
+                var jsonString = await response.Content.ReadAsStringAsync();
+                return JsonConvert.DeserializeObject<List<GitRepos>>(jsonString);
             }
-
             return new List<GitRepos>{new GitRepos{name = "name"}};
             
         }
