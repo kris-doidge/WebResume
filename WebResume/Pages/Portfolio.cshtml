@@ -6,18 +6,20 @@
 }
 
 <h2>Portfolio</h2>
-
+<div class="grid-container">
 @foreach (var r in Model.GitReposes)
 {
-    <div class="gitChips">
-        <a href="@r.html_url">
-            <div class="gitName">
-                <span class="gitName">@r.name</span>
+    
+        <div class="gitChips">
+            <a href="@r.html_url">
+                <div class="gitName">
+                    <span class="gitName">@r.name</span>
+                </div>
+            </a>
+            <div class="gitImg">
+                <img height="250" width="250" src="images/csharpicon.png" alt="About Me Photo"/>
             </div>
-        </a>
-        <div class="gitImg">
-            <img height="250" width="250" src="images/csharpicon.png" alt="About Me Photo"/>
+            <div class="gitDescription">@r.description</div>
         </div>
-        <div class="gitDescription">@r.description</div>
-    </div>
 }
+</div>
