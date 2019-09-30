@@ -1,8 +1,23 @@
 @page
-@model WebResume.Pages.Portfolio
+@model WebResume.Pages.PortfolioModel
 
 @{
     ViewData["Title"] = "Portfolio";
 }
 
 <h2>Portfolio</h2>
+
+@foreach (var r in Model.GitReposes)
+{
+    <div class="gitChips">
+        <a href="@r.html_url">
+            <div class="gitName">
+                <span class="gitName">@r.name</span>
+            </div>
+        </a>
+        <div class="gitImg">
+            <img height="250" width="250" src="images/csharpicon.png" alt="About Me Photo"/>
+        </div>
+        <div class="gitDescription">@r.description</div>
+    </div>
+}

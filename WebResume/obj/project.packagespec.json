@@ -1,27 +1,26 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\kdoid\\Documents\\PluralSight\\WebResume\\WebResume\\WebResume.csproj",
+    "projectUniqueName": "/Users/kris/Desktop/WebResume/WebResume/WebResume.csproj",
     "projectName": "WebResume",
-    "projectPath": "C:\\Users\\kdoid\\Documents\\PluralSight\\WebResume\\WebResume\\WebResume.csproj",
-    "outputPath": "C:\\Users\\kdoid\\Documents\\PluralSight\\WebResume\\WebResume\\obj\\",
+    "projectPath": "/Users/kris/Desktop/WebResume/WebResume/WebResume.csproj",
+    "outputPath": "/Users/kris/Desktop/WebResume/WebResume/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
-      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback",
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
       "netcoreapp2.2"
     ],
     "sources": {
-      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-      "https://api.nuget.org/v3/index.json": {}
+      "https://api.nuget.org/v3/index.json": {},
+      "https://pkgs.dev.azure.com/chanceyjr/_packaging/CyberSyphon-Packages/nuget/v3/index.json": {}
     },
     "frameworks": {
       "netcoreapp2.2": {
         "projectReferences": {
-          "C:\\Users\\kdoid\\Documents\\PluralSight\\WebResume\\WebResume.Data\\WebResume.Data.csproj": {
-            "projectPath": "C:\\Users\\kdoid\\Documents\\PluralSight\\WebResume\\WebResume.Data\\WebResume.Data.csproj"
+          "/Users/kris/Desktop/WebResume/WebResume.Data/WebResume.Data.csproj": {
+            "projectPath": "/Users/kris/Desktop/WebResume/WebResume.Data/WebResume.Data.csproj"
           }
         }
       }
@@ -43,6 +42,10 @@
           "target": "Package",
           "version": "[2.2.0, )"
         },
+        "Microsoft.AspNetCore.Http.Connections.Client": {
+          "target": "Package",
+          "version": "[3.0.0, )"
+        },
         "Microsoft.AspNetCore.HttpsPolicy": {
           "target": "Package",
           "version": "[2.2.0, )"
@@ -54,6 +57,10 @@
         "Microsoft.AspNetCore.StaticFiles": {
           "target": "Package",
           "version": "[2.2.0, )"
+        },
+        "Microsoft.Extensions.Http": {
+          "target": "Package",
+          "version": "[3.0.0, )"
         },
         "Microsoft.NETCore.App": {
           "suppressParent": "All",
