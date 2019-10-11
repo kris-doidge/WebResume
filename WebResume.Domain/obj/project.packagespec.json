@@ -1,20 +1,21 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/kris/Desktop/WebResume/WebResume.Domain/WebResume.Domain.csproj",
+    "projectUniqueName": "C:\\Users\\kdoid\\Documents\\PluralSight\\WebResume\\WebResume.Domain\\WebResume.Domain.csproj",
     "projectName": "WebResume.Domain",
-    "projectPath": "/Users/kris/Desktop/WebResume/WebResume.Domain/WebResume.Domain.csproj",
-    "outputPath": "/Users/kris/Desktop/WebResume/WebResume.Domain/obj/",
+    "projectPath": "C:\\Users\\kdoid\\Documents\\PluralSight\\WebResume\\WebResume.Domain\\WebResume.Domain.csproj",
+    "outputPath": "C:\\Users\\kdoid\\Documents\\PluralSight\\WebResume\\WebResume.Domain\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
-      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ],
     "originalTargetFrameworks": [
       "netcoreapp2.2"
     ],
     "sources": {
-      "https://api.nuget.org/v3/index.json": {},
-      "https://pkgs.dev.azure.com/chanceyjr/_packaging/CyberSyphon-Packages/nuget/v3/index.json": {}
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
       "netcoreapp2.2": {

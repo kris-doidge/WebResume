@@ -133,7 +133,7 @@ i.fa-github,i.fa-linkedin{
 
 /* Portfolio */
 div.gitChips{
-  height: 400px;
+  height: auto;
   width: 400px;
   border: 1px solid #000000;
   margin: 24px 24px;
@@ -154,6 +154,7 @@ div.gitImg{
 div.gitDescription{
   margin-right: 5%;
   margin-left: 5%;
+  margin-bottom: 5%;
 }
 
 .grid-container{

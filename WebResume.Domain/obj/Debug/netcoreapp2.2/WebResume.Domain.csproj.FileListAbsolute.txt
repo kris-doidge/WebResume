@@ -1,12 +1,3 @@
-C:/Users/kdoid/Documents/PluralSight/WebResume/WebResume.Domain/bin/Debug/netcoreapp2.2/WebResume.Domain.deps.json
-C:/Users/kdoid/Documents/PluralSight/WebResume/WebResume.Domain/bin/Debug/netcoreapp2.2/WebResume.Domain.dll
-C:/Users/kdoid/Documents/PluralSight/WebResume/WebResume.Domain/bin/Debug/netcoreapp2.2/WebResume.Domain.pdb
-C:/Users/kdoid/Documents/PluralSight/WebResume/WebResume.Domain/obj/Debug/netcoreapp2.2/WebResume.Domain.csprojAssemblyReference.cache
-C:/Users/kdoid/Documents/PluralSight/WebResume/WebResume.Domain/obj/Debug/netcoreapp2.2/WebResume.Domain.csproj.CoreCompileInputs.cache
-C:/Users/kdoid/Documents/PluralSight/WebResume/WebResume.Domain/obj/Debug/netcoreapp2.2/WebResume.Domain.AssemblyInfoInputs.cache
-C:/Users/kdoid/Documents/PluralSight/WebResume/WebResume.Domain/obj/Debug/netcoreapp2.2/WebResume.Domain.AssemblyInfo.cs
-C:/Users/kdoid/Documents/PluralSight/WebResume/WebResume.Domain/obj/Debug/netcoreapp2.2/WebResume.Domain.dll
-C:/Users/kdoid/Documents/PluralSight/WebResume/WebResume.Domain/obj/Debug/netcoreapp2.2/WebResume.Domain.pdb
 /Users/kris/Desktop/WebResume/WebResume.Domain/bin/Debug/netcoreapp2.2/WebResume.Domain.deps.json
 /Users/kris/Desktop/WebResume/WebResume.Domain/bin/Debug/netcoreapp2.2/WebResume.Domain.dll
 /Users/kris/Desktop/WebResume/WebResume.Domain/bin/Debug/netcoreapp2.2/WebResume.Domain.pdb
@@ -16,3 +7,12 @@ C:/Users/kdoid/Documents/PluralSight/WebResume/WebResume.Domain/obj/Debug/netcor
 /Users/kris/Desktop/WebResume/WebResume.Domain/obj/Debug/netcoreapp2.2/WebResume.Domain.AssemblyInfo.cs
 /Users/kris/Desktop/WebResume/WebResume.Domain/obj/Debug/netcoreapp2.2/WebResume.Domain.dll
 /Users/kris/Desktop/WebResume/WebResume.Domain/obj/Debug/netcoreapp2.2/WebResume.Domain.pdb
+C:\Users\kdoid\Documents\PluralSight\WebResume\WebResume.Domain\bin\Debug\netcoreapp2.2\WebResume.Domain.deps.json
+C:\Users\kdoid\Documents\PluralSight\WebResume\WebResume.Domain\bin\Debug\netcoreapp2.2\WebResume.Domain.dll
+C:\Users\kdoid\Documents\PluralSight\WebResume\WebResume.Domain\bin\Debug\netcoreapp2.2\WebResume.Domain.pdb
+C:\Users\kdoid\Documents\PluralSight\WebResume\WebResume.Domain\obj\Debug\netcoreapp2.2\WebResume.Domain.csprojAssemblyReference.cache
+C:\Users\kdoid\Documents\PluralSight\WebResume\WebResume.Domain\obj\Debug\netcoreapp2.2\WebResume.Domain.csproj.CoreCompileInputs.cache
+C:\Users\kdoid\Documents\PluralSight\WebResume\WebResume.Domain\obj\Debug\netcoreapp2.2\WebResume.Domain.AssemblyInfoInputs.cache
+C:\Users\kdoid\Documents\PluralSight\WebResume\WebResume.Domain\obj\Debug\netcoreapp2.2\WebResume.Domain.AssemblyInfo.cs
+C:\Users\kdoid\Documents\PluralSight\WebResume\WebResume.Domain\obj\Debug\netcoreapp2.2\WebResume.Domain.dll
+C:\Users\kdoid\Documents\PluralSight\WebResume\WebResume.Domain\obj\Debug\netcoreapp2.2\WebResume.Domain.pdb
