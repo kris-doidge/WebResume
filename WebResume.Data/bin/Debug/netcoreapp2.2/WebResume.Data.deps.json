@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "c1cf8decc5557c8b53c55041369ccbb55144df5f"
+    "signature": ""
   },
   "compilationOptions": {},
   "targets": {
@@ -142,13 +142,16 @@
         "runtime": {
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
             "assemblyVersion": "4.0.5.0",
-            "fileVersion": "4.0.0.0"
+            "fileVersion": "4.700.19.46214"
           }
         }
       },
       "WebResume.Domain/1.0.0": {
         "runtime": {
-          "WebResume.Domain.dll": {}
+          "WebResume.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

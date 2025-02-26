@@ -4,22 +4,23 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using WebResume.Data;
 using WebResume.Domain;
 
-namespace WebResume.Pages
-{
-    public class PortfolioModel : PageModel
-    {
-        private readonly IGitReposData _gitReposData;
-        public Task<IEnumerable<GitRepos>> GitReposDatas { get; set; }
-        public IEnumerable<GitRepos> GitReposes { get; set; }
+namespace WebResume.Pages;
 
-        public PortfolioModel(IGitReposData gitReposData)
-        {
-            _gitReposData = gitReposData;
-        }
-        public async Task OnGet()
-        {
-            GitReposDatas = _gitReposData.GetAllRepos();
-            GitReposes = await _gitReposData.GetAllRepos();
-        }
+public class PortfolioModel : PageModel
+{
+    private readonly IGitReposData _gitReposData;
+
+    public PortfolioModel(IGitReposData gitReposData)
+    {
+        _gitReposData = gitReposData;
+    }
+
+    public Task<IEnumerable<GitRepos>> GitReposDatas { get; set; }
+    public IEnumerable<GitRepos> GitReposes { get; set; }
+
+    public async Task OnGet()
+    {
+        GitReposDatas = _gitReposData.GetAllRepos();
+        GitReposes = await _gitReposData.GetAllRepos();
     }
 }

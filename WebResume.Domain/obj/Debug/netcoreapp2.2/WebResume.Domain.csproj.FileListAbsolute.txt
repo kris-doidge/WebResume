@@ -16,3 +16,14 @@ C:\Users\kdoid\Documents\PluralSight\WebResume\WebResume.Domain\obj\Debug\netcor
 C:\Users\kdoid\Documents\PluralSight\WebResume\WebResume.Domain\obj\Debug\netcoreapp2.2\WebResume.Domain.AssemblyInfo.cs
 C:\Users\kdoid\Documents\PluralSight\WebResume\WebResume.Domain\obj\Debug\netcoreapp2.2\WebResume.Domain.dll
 C:\Users\kdoid\Documents\PluralSight\WebResume\WebResume.Domain\obj\Debug\netcoreapp2.2\WebResume.Domain.pdb
+C:\Users\kdoid\Documents\coding\WebResume\WebResume.Domain\bin\Debug\netcoreapp2.2\WebResume.Domain.deps.json
+C:\Users\kdoid\Documents\coding\WebResume\WebResume.Domain\bin\Debug\netcoreapp2.2\WebResume.Domain.dll
+C:\Users\kdoid\Documents\coding\WebResume\WebResume.Domain\bin\Debug\netcoreapp2.2\WebResume.Domain.pdb
+C:\Users\kdoid\Documents\coding\WebResume\WebResume.Domain\obj\Debug\netcoreapp2.2\WebResume.Domain.csproj.AssemblyReference.cache
+C:\Users\kdoid\Documents\coding\WebResume\WebResume.Domain\obj\Debug\netcoreapp2.2\WebResume.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kdoid\Documents\coding\WebResume\WebResume.Domain\obj\Debug\netcoreapp2.2\WebResume.Domain.AssemblyInfoInputs.cache
+C:\Users\kdoid\Documents\coding\WebResume\WebResume.Domain\obj\Debug\netcoreapp2.2\WebResume.Domain.AssemblyInfo.cs
+C:\Users\kdoid\Documents\coding\WebResume\WebResume.Domain\obj\Debug\netcoreapp2.2\WebResume.Domain.csproj.CoreCompileInputs.cache
+C:\Users\kdoid\Documents\coding\WebResume\WebResume.Domain\obj\Debug\netcoreapp2.2\WebResume.Domain.dll
+C:\Users\kdoid\Documents\coding\WebResume\WebResume.Domain\obj\Debug\netcoreapp2.2\WebResume.Domain.pdb
+C:\Users\kdoid\Documents\coding\WebResume\WebResume.Domain\obj\Debug\netcoreapp2.2\WebResume.Domain.sourcelink.json

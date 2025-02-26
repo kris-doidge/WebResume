@@ -2,164 +2,168 @@
 for details on configuring this project to bundle and minify static web assets. */
 
 a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all
+    white-space: normal;
+    text-align: center;
+    word-break: break-all
 }
 
-.navbar{
-  margin: 4%;
+.navbar {
+    margin: 4%;
 }
 
 
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
+
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 .border-top {
-  border-top: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
 }
+
 .border-bottom {
-  border-bottom: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
 
 button.accept-policy {
-  font-size: 1rem;
-  line-height: inherit;
+    font-size: 1rem;
+    line-height: inherit;
 }
 
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
 }
+
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  line-height: 60px; /* Vertically center the text there */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
 }
 
 /* Index */
-button.homepage
-{
-  border-radius: 50%;
-  width: 140px !important;
-  height: 140px !important;
-  font-size: 24px;
-  margin-left: 16px;
-  margin-right: 16px;
-  -moz-box-shadow:inset 0px 1px 0px 0px #caefab;
-  -webkit-box-shadow:inset 0px 1px 0px 0px #caefab;
-  box-shadow:inset 0px 1px 0px 0px #caefab;
-  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #77d42a), color-stop(1, #5cb811));
-  background:-moz-linear-gradient(top, #77d42a 5%, #5cb811 100%);
-  background:-webkit-linear-gradient(top, #77d42a 5%, #5cb811 100%);
-  background:-o-linear-gradient(top, #77d42a 5%, #5cb811 100%);
-  background:-ms-linear-gradient(top, #77d42a 5%, #5cb811 100%);
-  background:linear-gradient(to bottom, #77d42a 5%, #5cb811 100%);
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77d42a', endColorstr='#5cb811',GradientType=0);
-  background-color:#77d42a;
-  border:1px solid #268a16;
-  display:inline-block;
-  cursor:pointer;
-  color:#306108;
-  font-family:"Comic Sans MS", cursive, sans-serif;
-  font-weight:bold;
-  text-decoration:none;
-  text-shadow:0px 1px 0px #aade7c;
+button.homepage {
+    border-radius: 50%;
+    width: 140px !important;
+    height: 140px !important;
+    font-size: 24px;
+    margin-left: 16px;
+    margin-right: 16px;
+    -moz-box-shadow: inset 0px 1px 0px 0px #caefab;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #caefab;
+    box-shadow: inset 0px 1px 0px 0px #caefab;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #77d42a), color-stop(1, #5cb811));
+    background: -moz-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+    background: -webkit-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+    background: -o-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+    background: -ms-linear-gradient(top, #77d42a 5%, #5cb811 100%);
+    background: linear-gradient(to bottom, #77d42a 5%, #5cb811 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#77d42a', endColorstr='#5cb811', GradientType=0);
+    background-color: #77d42a;
+    border: 1px solid #268a16;
+    display: inline-block;
+    cursor: pointer;
+    color: #306108;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #aade7c;
 }
 
-.text-center{
-  margin: 5% auto;
+.text-center {
+    margin: 5% auto;
 }
 
-.homepageIcon{
-  margin-right: 96px;
-  border-radius: 50%;
+.homepageIcon {
+    margin-right: 96px;
+    border-radius: 50%;
 }
+
 /* Resume */
 span.title {
-  font-style: italic;
+    font-style: italic;
 }
 
-span.duration{
-  float: right;
+span.duration {
+    float: right;
 }
 
-span.type{
-  font-weight: bold; 
+span.type {
+    font-weight: bold;
 }
 
-h6.company{
-  font-weight : bold;
+h6.company {
+    font-weight: bold;
 }
 
 /* About Me */
 
-img.aboutMe{
-  border-radius: 50%;
+img.aboutMe {
+    border-radius: 50%;
 }
 
-div.col.icons{
-  text-align: center;
-  padding-top: 48px;
+div.col.icons {
+    text-align: center;
+    padding-top: 48px;
 }
 
-i.fa-github,i.fa-linkedin{
-  padding-left: 24px;
-  padding-right: 24px;
+i.fa-github, i.fa-linkedin {
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 /* Portfolio */
-div.gitChips{
-  height: auto;
-  width: 400px;
-  border: 1px solid #000000;
-  margin: 24px 24px;
-  text-overflow: ellipsis;
+div.gitChips {
+    height: auto;
+    width: 400px;
+    border: 1px solid #000000;
+    margin: 24px 24px;
+    text-overflow: ellipsis;
 }
 
-div.gitName{
-  text-align: center;
-}
-span.gitName{
-  font-size: 24px;
+div.gitName {
+    text-align: center;
 }
 
-div.gitImg{
-  text-align: center;
+span.gitName {
+    font-size: 24px;
 }
 
-div.gitDescription{
-  margin-right: 5%;
-  margin-left: 5%;
-  margin-bottom: 5%;
+div.gitImg {
+    text-align: center;
 }
 
-.grid-container{
-  display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
-  grid-gap: 10px;
-  padding: 10px;
+div.gitDescription {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 10px;
+    padding: 10px;
 }

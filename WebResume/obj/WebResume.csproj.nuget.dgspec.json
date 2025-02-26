@@ -1,36 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "/Users/kris/Desktop/WebResume/WebResume/WebResume.csproj": {}
+    "C:\\Users\\kdoid\\Documents\\coding\\WebResume\\WebResume\\WebResume.csproj": {}
   },
   "projects": {
-    "/Users/kris/Desktop/WebResume/WebResume.Data/WebResume.Data.csproj": {
+    "C:\\Users\\kdoid\\Documents\\coding\\WebResume\\WebResume.Data\\WebResume.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kris/Desktop/WebResume/WebResume.Data/WebResume.Data.csproj",
+        "projectUniqueName": "C:\\Users\\kdoid\\Documents\\coding\\WebResume\\WebResume.Data\\WebResume.Data.csproj",
         "projectName": "WebResume.Data",
-        "projectPath": "/Users/kris/Desktop/WebResume/WebResume.Data/WebResume.Data.csproj",
-        "packagesPath": "/Users/kris/.nuget/packages/",
-        "outputPath": "/Users/kris/Desktop/WebResume/WebResume.Data/obj/",
+        "projectPath": "C:\\Users\\kdoid\\Documents\\coding\\WebResume\\WebResume.Data\\WebResume.Data.csproj",
+        "packagesPath": "C:\\Users\\kdoid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kdoid\\Documents\\coding\\WebResume\\WebResume.Data\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/kris/.config/NuGet/NuGet.Config"
+          "C:\\Users\\kdoid\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.2"
+          "net6.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/chanceyjr/_packaging/CyberSyphon-Packages/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.2": {
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/kris/Desktop/WebResume/WebResume.Domain/WebResume.Domain.csproj": {
-                "projectPath": "/Users/kris/Desktop/WebResume/WebResume.Domain/WebResume.Domain.csproj"
+              "C:\\Users\\kdoid\\Documents\\coding\\WebResume\\WebResume.Domain\\WebResume.Domain.csproj": {
+                "projectPath": "C:\\Users\\kdoid\\Documents\\coding\\WebResume\\WebResume.Domain\\WebResume.Domain.csproj"
               }
             }
           }
@@ -39,58 +36,82 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "netcoreapp2.2": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.Extensions.Http": {
               "target": "Package",
-              "version": "[3.0.0, )"
-            },
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
+              "version": "[10.0.0-preview.1.25080.5, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[11.0.2, )"
+              "version": "[13.0.3, )"
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/kris/Desktop/WebResume/WebResume.Domain/WebResume.Domain.csproj": {
+    "C:\\Users\\kdoid\\Documents\\coding\\WebResume\\WebResume.Domain\\WebResume.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kris/Desktop/WebResume/WebResume.Domain/WebResume.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\kdoid\\Documents\\coding\\WebResume\\WebResume.Domain\\WebResume.Domain.csproj",
         "projectName": "WebResume.Domain",
-        "projectPath": "/Users/kris/Desktop/WebResume/WebResume.Domain/WebResume.Domain.csproj",
-        "packagesPath": "/Users/kris/.nuget/packages/",
-        "outputPath": "/Users/kris/Desktop/WebResume/WebResume.Domain/obj/",
+        "projectPath": "C:\\Users\\kdoid\\Documents\\coding\\WebResume\\WebResume.Domain\\WebResume.Domain.csproj",
+        "packagesPath": "C:\\Users\\kdoid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kdoid\\Documents\\coding\\WebResume\\WebResume.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/kris/.config/NuGet/NuGet.Config"
+          "C:\\Users\\kdoid\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.2"
+          "net6.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/chanceyjr/_packaging/CyberSyphon-Packages/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.2": {
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -98,53 +119,75 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "netcoreapp2.2": {
-          "dependencies": {
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
-            }
-          },
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/kris/Desktop/WebResume/WebResume/WebResume.csproj": {
+    "C:\\Users\\kdoid\\Documents\\coding\\WebResume\\WebResume\\WebResume.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/kris/Desktop/WebResume/WebResume/WebResume.csproj",
+        "projectUniqueName": "C:\\Users\\kdoid\\Documents\\coding\\WebResume\\WebResume\\WebResume.csproj",
         "projectName": "WebResume",
-        "projectPath": "/Users/kris/Desktop/WebResume/WebResume/WebResume.csproj",
-        "packagesPath": "/Users/kris/.nuget/packages/",
-        "outputPath": "/Users/kris/Desktop/WebResume/WebResume/obj/",
+        "projectPath": "C:\\Users\\kdoid\\Documents\\coding\\WebResume\\WebResume\\WebResume.csproj",
+        "packagesPath": "C:\\Users\\kdoid\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kdoid\\Documents\\coding\\WebResume\\WebResume\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "/Users/kris/.config/NuGet/NuGet.Config"
+          "C:\\Users\\kdoid\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.2"
+          "net6.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/chanceyjr/_packaging/CyberSyphon-Packages/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.2": {
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/kris/Desktop/WebResume/WebResume.Data/WebResume.Data.csproj": {
-                "projectPath": "/Users/kris/Desktop/WebResume/WebResume.Data/WebResume.Data.csproj"
+              "C:\\Users\\kdoid\\Documents\\coding\\WebResume\\WebResume.Data\\WebResume.Data.csproj": {
+                "projectPath": "C:\\Users\\kdoid\\Documents\\coding\\WebResume\\WebResume.Data\\WebResume.Data.csproj"
               }
             }
           }
@@ -153,51 +196,75 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
-        "netcoreapp2.2": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.AspNetCore": {
+            "Microsoft.AspNetCore.JsonPatch": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[10.0.0-preview.1.25120.3, )"
             },
-            "Microsoft.AspNetCore.CookiePolicy": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "Microsoft.AspNetCore.Http.Connections.Client": {
-              "target": "Package",
-              "version": "[3.0.0, )"
-            },
-            "Microsoft.AspNetCore.HttpsPolicy": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "Microsoft.AspNetCore.Mvc": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "Microsoft.AspNetCore.StaticFiles": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "Microsoft.Extensions.Http": {
-              "target": "Package",
-              "version": "[3.0.0, )"
-            },
-            "Microsoft.NETCore.App": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.2.0, )",
-              "autoReferenced": true
+              "version": "[10.0.0-preview.1.25081.1, )"
+            },
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[10.0.0-preview.1.25080.5, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[10.0.0-preview.1.25080.5, )"
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

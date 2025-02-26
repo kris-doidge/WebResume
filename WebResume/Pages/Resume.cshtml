@@ -6,30 +6,30 @@
 }
 
 <head>
-     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/site.css"/>
 </head>
 <h2>Resume</h2>
 
 <h3>Technology</h3>
 <ul>
-    
+
     <div class="technologies">
         <span class="type">Languages: </span>
-        @foreach (var x in @Model.Languages)
+        @foreach (var x in Model.Languages)
         {
             <span>@x.Name, </span>
         }
     </div>
     <div class="technologies">
         <span class="type">Software: </span>
-        @foreach (var x in @Model.Software)
+        @foreach (var x in Model.Software)
         {
             <span>@x.Name, </span>
         }
     </div>
     <div class="technologies">
         <span class="type">Operating Systems: </span>
-        @foreach (var x in @Model.OperatingSystems)
+        @foreach (var x in Model.OperatingSystems)
         {
             <span>@x.Name, </span>
         }
@@ -37,7 +37,7 @@
 </ul>
 
 <h3>Experiences</h3>
-@foreach (var r in @Model.Experiences)
+@foreach (var r in Model.Experiences)
 {
     <div>
         <h6 class="company">@r.Company</h6>

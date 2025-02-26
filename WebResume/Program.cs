@@ -1,24 +1,42 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore;
+﻿using Microsoft.AspNetCore;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using WebResume.Data;
 
-namespace WebResume
+var builder = WebApplication.CreateBuilder(args);
+
+
+builder.Services.AddHttpClient();
+
+builder.Services.AddRazorPages();
+
+// Add services to the container.
+builder.Services.AddControllersWithViews(); // Add MVC support
+builder.Services.AddSingleton<IExperienceData, ExperienceData>();
+builder.Services.AddSingleton<IGitReposData, GitReposData>();
+builder.Services.AddSingleton<ITechnologyData, TechnologyData>();
+
+var app = builder.Build();
+
+// Configure the HTTP request pipeline.
+if (app.Environment.IsDevelopment())
 {
-    public class Program
-    {
-        public static void Main(string[] args)
-        {
-            CreateWebHostBuilder(args).Build().Run();
-        }
-
-        public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>();
-    }
+    app.UseDeveloperExceptionPage();
 }
+else
+{
+    app.UseExceptionHandler("/Home/Error");
+    app.UseHsts();
+}
+
+app.UseRouting();
+// app.UseAuthorization();
+app.MapRazorPages();
+app.UseCors();
+app.UseHttpsRedirection();
+app.UseStaticFiles();
+
+
+app.Run();

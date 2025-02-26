@@ -1,0 +1,77 @@
+# Ignore Visual Studio specific files
+.vs/
+*.user
+*.suo
+*.vbproj.user
+*.csproj.user
+*.dbmdl
+*.vcxproj.user
+*.pfx
+*.publishsettings
+
+# Build output directories
+bin/
+obj/
+out/
+
+# Dependencies
+packages/
+!packages/**/*.md
+
+# Rider & JetBrains
+.idea/
+*.sln.iml
+
+# Ignore configuration files
+appsettings*.json
+secrets.json
+
+# Logs
+*.log
+logs/
+Logs/
+
+# Entity Framework Migrations
+Migrations/
+
+# Resharper
+*_Resharper.*
+*.DotSettings.user
+
+# Ignore .NET user secrets
+**/secrets.json
+**/secrets/
+
+# Ignore generated files
+Generated_Code/
+GeneratedFiles/
+*.g.cs
+*.g.i.cs
+
+# Ignore node_modules (if using frontend frameworks like Blazor/Webpack)
+node_modules/
+
+# Ignore environment-specific files
+.env
+.env.*
+
+# Ignore coverage reports
+coverage/
+*.coverage
+*.coveragexml
+
+# Ignore NuGet packages
+*.nupkg
+project.lock.json
+.nuget/
+
+# Ignore temporary files
+*.swp
+*.bak
+*.tmp
+Thumbs.db
+.DS_Store
+
+# Ignore publish output
+wwwroot/
+
